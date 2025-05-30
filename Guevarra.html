@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Guevarra Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <header>
+    <a href="#" class="logo"><span class="ea">EA</span><span class="rl">RL</span></a>
+    <div class="bx bx-menu" id="menu-icon"></div>
+
+    <ul class="navbar">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#footer">Contact</a></li>
+    </ul>
+  </header>
+
+  <section class="home" id="home">
+    <div class="home-text">
+      <h5>Hello, I'm</h5>
+      <h1><span class="earl">EARL</span> <br> <span class="guevs">Guevarra</span></h1>
+      <h6>a passionate <span>Android and Web Developer</span>a passionate Android and Web Developer driven by a desire to build innovative and efficient digital solutions.</h6>
+      <a href="Resume (1).pdf" class="btn" download>Download RESUME</a>
+    </div>
+
+    <div class="home-img">
+      <img src="profile2.png" alt="anime">
+    </div>
+  </section>
+
+
+  <section class="projects" id="projects">
+    <h2 class="pro">Projects</h2>
+    <div class="project-grid">
+      <div class="project-card" 
+  data-title="Body Work: Calisthenic Gym Application" 
+  data-img="bodywork1.png" 
+  data-description="Body Work is your ultimate fitness companion designed for home workouts using only your body weight. Perfect for beginners and fitness enthusiasts alike.<br><br>
+  <strong>Key Features:</strong>
+  <ul>
+    <li>Beginner-friendly home workout tutorials</li>
+    <li>No equipment required – just your body</li>
+    <li>Full-body routines for strength, endurance, and mobility</li>
+    <li>Clean and simple interface for daily use</li>
+    <li>Ideal for indoor or outdoor training</li>
+  </ul>">
+  <img src="bodywork1.png" alt="Project 1 Image" class="project-image">
+  <h3>Body Work</h3>
+</div>
+
+      <div class="project-card" 
+  data-title="TIRWASAI Pay" 
+  data-img="TIRWASAI.png" 
+  data-description="TIRWASAI Pay is a mobile application designed to make rural water billing faster, easier, and more efficient. Tailored for community-managed water systems.<br><br>
+  <strong>Key Features:</strong>
+  <ul>
+    <li>Real-time access to billing statements</li>
+    <li>SMS notifications for bills, payments, and announcements</li>
+    <li>Simple and intuitive interface for community members</li>
+    <li>Built specifically for rural water providers</li>
+    <li>Integrated with admin dashboard for efficient management</li>
+  </ul>">
+  <img src="TIRWASAI.png" alt="Project 2 Image" class="project-image">
+  <h3>TIRWASAI Pay</h3>
+</div>
+
+<div class="project-card" 
+  data-title="EARL's Motorclub Website" 
+  data-img="born.png" 
+  data-description="EARL's Motorclub is a premium eCommerce platform dedicated to selling high-performance bigbike motorcycles to passionate riders. We bring the power of the road to your fingertips with an easy-to-use, secure online shopping experience. From sleek sportbikes to powerful cruisers, EARL's offers a carefully curated selection of motorcycles built for thrill, performance, and freedom. Whether you're a first-time buyer or a seasoned rider, EARL's Motorclub makes it easy to browse, compare, and purchase your dream ride — all online. With flexible financing, nationwide delivery, and expert support, we're your trusted source for everything bigbike.">
+  
+  <img src="born.png" alt="EARL's Motorclub Website" class="project-image">
+  <h3>EARL's Motorclub Website</h3>
+</div>
+
+
+<div class="project-card" 
+  data-title="Space Hunter" 
+  data-img="PRACTICALEXAM_GUEVARRA_EARL.png" 
+  data-description="Space Hunter is a fast-paced sci-fi action adventure that throws you into the role of a fearless bounty hunter navigating the farthest reaches of the galaxy. In a universe plagued by rogue AI, alien warlords, and interstellar crime, it’s up to you to track, hunt, and eliminate the most dangerous threats the cosmos has ever seen.
+
+With stunning deep-space environments, customizable weapons, and adrenaline-fueled combat, Space Hunter delivers an immersive experience where every mission tests your skill, strategy, and survival instinct. Explore alien planets, upgrade your gear, and become the legend every outlaw fears.">
+  
+  <img src="PRACTICALEXAM_GUEVARRA_EARL.png" alt="EARL's Motorclub Website" class="project-image">
+  <h3>Space Hunter</h3>
+</div>
+
+<div class="project-card" 
+  data-title="Aroma Tech" 
+  data-img="Aroma.png" 
+  data-description="The Aroma-Tech website is designed with accessibility and usability at its core, ensuring a seamless experience for users with low vision. <strong>Key Features:</strong>
+  <ul>
+    <li>High-Contrast Mode and Text Resizing Options for better readability.</li>
+    <li>Screen Reader Compatibility with clearly labeled buttons and descriptive alt text for images.</li>
+    <li>Simple and intuitive interface for community members</li>
+    <li>Built specifically for rural water providers</li>
+    <li>Integrated with admin dashboard for efficient management</li>
+  </ul>">
+  <img src="Aroma.png" alt="Aroma Tech Project Image" class="project-image">
+  <h3>Aroma Tech</h3>
+</div>
+
+  </section>
+
+  <div id="project-modal" class="modal hidden">
+    <div class="modal-content">
+      <span class="close-button">&times;</span>
+      <h2 id="modal-title"></h2>
+      <img id="modal-image" src="" alt="Project Image" />
+      <p id="modal-description"></p>
+    </div>
+  </div>
+
+  <section class="about" id="about">
+    <h2 class="gege">About Me</h2>
+    <div class="about-section">
+      <div class="about-block" id="personal-info">
+        <h3>Personal Info</h3>
+        <div class="about__container">
+          <div class="about__img">
+            <img src="3.jpg" alt="Earl Cedric D. Guevarra">
+          </div>
+          <div class="about__text">
+            <h3 class="about__subtitle">EARL CEDRIC D. GUEVARRA</h3>
+            <p class="txtinfo">Hello! I'm a passionate Android and Web Developer currently in my 3rd year at STI College Batangas, pursuing a degree in Information Technology. I specialize in building modern, user-friendly mobile applications using Java and Android Studio. With a strong foundation in mobile app development and a growing portfolio of personal and academic projects, I enjoy solving real-world problems through clean and efficient code. I’m always eager to learn new technologies, improve my skills, and collaborate on innovative projects. Whether it’s crafting intuitive user interfaces or optimizing app performance, I aim to deliver high-quality solutions that make a difference. Let’s build something great together!</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-block" id="skills">
+      <h3>Skills</h3>
+      <div class="skills__container">
+                    <div class="skills__content">
+                        <p class="skills__text">As a 3rd-year college student at STI College Batangas specializing in Android Development, I have hands-on experience in creating mobile applications using modern tools and best practices. I am passionate about building efficient, user-friendly, and functional apps.</p>
+
+                        <div class="skill">
+                            <span><i class='bx bx-code-alt'></i> Java (Android)</span>
+                            <div class="skill-bar"><div style="width: 90%"></div></div>
+                            <span class="skill-percent">70%</span>
+                        </div>
+
+                        <div class="skill">
+                            <span><i class='bx bxl-android'></i> Android Studio</span>
+                            <div class="skill-bar"><div style="width: 85%"></div></div>
+                            <span class="skill-percent">75%</span>
+                        </div>
+
+                        <div class="skill">
+                            <span><i class='bx bxs-data'></i> Database</span>
+                            <div class="skill-bar"><div style="width: 75%"></div></div>
+                            <span class="skill-percent">65%</span>
+                        </div>
+
+                        <div class="skill">
+                            <span><i class='bx bxs-paint'></i> UI/UX Design (XML)</span>
+                            <div class="skill-bar"><div style="width: 80%"></div></div>
+                            <span class="skill-percent">80%</span>
+                        </div>
+                    </div>
+                </div>
+    </div>
+
+    <div class="about-section">
+      <div class="about-block" id="personal-info">
+        <h3>Experience</h3>
+        <div class="about__container">
+          <div class="about__img">
+            <img src="build.jpg" alt="Earl Cedric D. Guevarra">
+          </div>
+          <div class="about__text">
+            <h3 class="about__subtitle">PC Builds
+            </h3>
+            <p class="txtinfo">I have experience building a pc, so this is my latest build. <br>
+            <strong>Specs:</strong><br>
+          <ul class="specs">
+            <li>CPU: Ryzen 5 5600</li>
+            <li>GPU: Asus Tuf GTX 1660 super</li>
+            <li>Motherboard: Gigabyte B450m v3</li>
+            <li>Ram: Vengeance 8x2 (16gb ram) 3200mhz</li>
+            <li>Storage: 512gb ssd and 500gb hdd</li>
+            <li>PSU: Corsair CX 650 80+ bronze</li>
+          </ul>
+          If you want to build a pc just contact me.
+        </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-block" id="achievements">
+        <h3>Achievements</h3>
+        <section class="work section" id="work">
+          <div class="work__container">
+            <a href="achievement1.png" class="work__img"><img src="achievement1.png" alt=""></a>
+            <a href="shared image.jpg" class="work__img"><img src="shared image.jpg" alt=""></a>
+            <a href="achievement3.jpg" class="work__img"><img src="achievement3.jpg" alt=""></a>
+            <a href="daw.jpg" class="work__img"><img src="daw.jpg" alt=""></a>
+            <a href="Image (1).jpg" class="work__img"><img src="Image (1).jpg" alt=""></a>
+            <a href="dawd.jpg" class="work__img"><img src="dawd.jpg" alt=""></a>
+          </div>
+        </section>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer" id="footer">
+    <div class="container">
+      <p>&copy; 2025 Earl Guevarra. All rights reserved.</p>
+      <div class="social-links">
+        <a href="https://facebook.com/earlcedric.guevarra" target="_blank"><i class="bx bxl-facebook"></i></a>
+        <a href="https://github.com/StrongestEarl" target="_blank"><i class="bx bxl-github"></i></a>
+        <a href="https://instagram.com/s3n_p4i/" target="_blank"><i class="bx bxl-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
